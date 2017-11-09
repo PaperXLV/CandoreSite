@@ -17,3 +17,15 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
+body {
+    background: #b0b3b7;
+    font-family: 'Dosis', sans-serif;
+}
+
+.navbar-inverse .navbar-text {
+    font-size: 18pt;
+}
+
+.navbar {
+    border-radius: 0px;
+}

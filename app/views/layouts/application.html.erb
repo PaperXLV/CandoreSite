@@ -1,12 +1,24 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Workspace</title>
+  <title>Candore</title>
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <link href="https://fonts.googleapis.com/css?family=Dosis:400,700" rel="stylesheet">
+
   <%= csrf_meta_tags %>
+  
 </head>
 <body>
+  <nav class="navbar navbar-toggleable-md navbar-inverse bg-inverse">
+    <div class="collapse navbar-collapse navbar-nav" id="navbarColor01">
+      <%= link_to "LOGO", root_path, class: 'nav-link nav-item navbar-text' %>
+      <%= link_to "Home", root_path, class: 'nav-link nav-item navbar-text' %>
+      <%= link_to "Contact", '#', class: 'nav-link nav-item navbar-text' %>
+      <%= link_to "Shop", '#', class: 'nav-link nav-item navbar-text' %>
+      <%= link_to "About", '#', class: 'nav-link nav-item navbar-text' %>
+    </div>
+  </nav>
 
 <%= yield %>
 
