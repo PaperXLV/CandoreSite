@@ -29,3 +29,40 @@ body {
 .navbar {
     border-radius: 0px;
 }
+
+.full-page-candore {
+    background-image: url("");
+    
+    height: 100%;
+    
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+}
+
+.divider {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 45px;
+    margin-bottom: 45px;
+}
+
+.divider::before {
+    flex: 1;
+    margin: 0 .45em 0 0;
+}
+
+.divider::after, .divider::before {
+    content: '';
+    height: 1.5px;
+    background: #333;
+}
+
+.divider::after {
+    flex: 1;
+    margin: 0 0 0 .45em;
+}
