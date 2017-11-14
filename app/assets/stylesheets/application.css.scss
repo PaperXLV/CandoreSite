@@ -28,6 +28,8 @@ body {
 
 .navbar {
     border-radius: 0px;
+    margin-bottom: 50px;
+
 }
 
 .full-page-candore {
@@ -65,4 +67,10 @@ body {
 .divider::after {
     flex: 1;
     margin: 0 0 0 .45em;
+}
+
+.flash-container {
+    position: absolute;
+    width: 100%;
+    margin-top: -45px;
 }
