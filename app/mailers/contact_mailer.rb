@@ -7,5 +7,4 @@ class ContactMailer < ActionMailer::Base
       @message = message
       mail(from: email, subject: "Candore contact message")
    end
-    
 end
