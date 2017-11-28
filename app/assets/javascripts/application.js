@@ -13,4 +13,13 @@
 //= require jquery
 //= require jquery_ujs
 //= require turbolinks
+//= require jquery-ui
 //= require_tree .
+
+/* global $ */
+
+$(document).on('turbolinks:load', function() {
+    $( "#accordion" ).accordion({
+        collapsible: true
+    });
+});
