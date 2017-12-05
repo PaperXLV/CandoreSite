@@ -22,4 +22,5 @@ $(document).on('turbolinks:load', function() {
     $( "#accordion" ).accordion({
         collapsible: true
     });
+    $('.alert').fadeOut(5000);
 });
