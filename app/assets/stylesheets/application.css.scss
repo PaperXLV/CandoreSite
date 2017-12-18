@@ -20,6 +20,7 @@
 
 body {
     background: #7d7d7d;
+    color: #000;
     font-family: 'Dosis', sans-serif;
 }
 
@@ -41,6 +42,11 @@ body {
     width: inherit;
     border-radius: 10px;
     border: 2px solid #222;
+}
+
+.demo-btn {
+    margin-bottom: 100px;
+    color: #222;
 }
 
 .full-page-candore {
