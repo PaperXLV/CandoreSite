@@ -19,7 +19,7 @@
 @import "bootstrap";
 
 body {
-    background: #b0b3b7;
+    background: #7d7d7d;
     font-family: 'Dosis', sans-serif;
 }
 
@@ -31,6 +31,16 @@ body {
     border-radius: 0px;
     margin-bottom: 50px;
 
+}
+
+.nav-logo {
+    height: 30px;
+}
+
+.home-media {
+    width: inherit;
+    border-radius: 10px;
+    border: 2px solid #222;
 }
 
 .full-page-candore {
@@ -59,7 +69,7 @@ body {
 
 .divider::after, .divider::before {
     content: '';
-    height: 1.5px;
+    height: 2px;
     background: #333;
 }
 

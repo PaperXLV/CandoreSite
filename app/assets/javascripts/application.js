@@ -23,4 +23,7 @@ $(document).on('turbolinks:load', function() {
         collapsible: true
     });
     $('.alert').fadeOut(5000);
+    
+    var home_img_width = $('.home-media')[0].width;
+    $('.home-media').width(home_img_width * 2);
 });
